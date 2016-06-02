@@ -1,0 +1,91 @@
+html {
+  background-color: #030306;
+}
+
+body {
+  margin: 2em 0;
+}
+
+
+.video-wrapper {
+  display: block;
+  position: relative;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  font-family: Futura-Bold;
+  font-size: 1em;
+  line-height: 1;
+  letter-spacing: 0.55em;
+  color: #030306;
+  text-transform: uppercase;
+  padding: 1em 2em 0.8em;
+  background-color: #fff;
+  text-decoration: none;
+  border: #8D908D solid;
+  border-radius: 10px;
+}
+
+.button:hover {
+  /* text-decoration: underline; */
+  color: #8D908D;
+}
+
+.cta {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  bottom: 5%;
+}
+
+.husche {
+  position: relative;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+  .cta {
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .cta {
+    bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .button {
+    font-size: 1.5em;
+    letter-spacing: 0.825em;
+  }
+  .cta {
+    bottom: 15%;
+  }
+}
