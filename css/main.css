@@ -58,6 +58,8 @@ body {
     height: 100%;
 }
 
+.fullscreen-bg__video::-webkit-media-controls {display: none !important}
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 130%;
