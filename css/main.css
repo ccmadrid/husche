@@ -15,15 +15,15 @@ body {
 
 .button {
   display: inline-block;
-  min-width: 18em;
-  margin: 50vh auto 0;
+  width: 16em;
+  margin: 0 auto;
   font-family: Futura-Bold, Sans-Serif;
   font-size: 1em;
   line-height: 1;
   letter-spacing: 0.55em;
   color: #030306;
   text-transform: uppercase;
-  padding: 1.5em 2em 1.3em;
+  padding: 1.25em 2em 1.1em;
   background-color: #fff;
   text-decoration: none;
   border: #8D908D solid;
