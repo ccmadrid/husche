@@ -14,6 +14,7 @@ body {
 }
 
 .button {
+  position: fixed;
   display: inline-block;
   width: 16em;
   margin: 0 auto;
