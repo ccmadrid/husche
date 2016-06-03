@@ -18,7 +18,7 @@ body {
   display: inline-block;
   width: 15em;
   margin: 0 auto;
-  font-family: Futura-Bold, Sans-Serif;
+  font-family: Futura-Bold, 'Roboto', Sans-Serif;
   font-size: 1em;
   font-weight: bold;
   line-height: 1.4em;
@@ -77,9 +77,6 @@ body {
     margin-top: 70vh;
   }
   @media only screen and (min-width: 38em) {
-    .button {
-      margin-top: 75vh;
-    }
   }
   @media only screen and (min-width: 60em) {
     .button {
