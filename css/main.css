@@ -64,7 +64,7 @@ body {
     top: -15%;
   }
   .button {
-    margin-top: 80vh;
+    top: 80vh;
   }
 }
 
@@ -74,11 +74,11 @@ body {
     left: -15%;
   }
   .button {
-    margin-top: 70vh;
+    top: 70vh;
   }
   @media only screen and (min-width: 60em) {
     .button {
-      margin-top: 80vh;
+      top: 80vh;
     }
   }
 }
