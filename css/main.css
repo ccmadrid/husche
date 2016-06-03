@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 0;
   overflow: hidden;
 }
 .cta {
@@ -21,17 +21,16 @@ body {
   font-family: Futura-Bold, Sans-Serif;
   font-size: 1em;
   font-weight: bold;
-  line-height: 1em;
-  letter-spacing: 0.55em;
+  line-height: 1.4em;
+  letter-spacing: 0.3em;
   color: #030306;
   text-transform: uppercase;
-  padding: 1.1em 1.5em;
+  padding: 1.1em 1.1em;
   background-color: #fff;
   text-decoration: none;
   border: #8D908D solid;
   border-radius: 4em;
 }
-
 .button:hover {
   /* text-decoration: underline; */
   color: #8D908D;
