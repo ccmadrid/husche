@@ -7,6 +7,12 @@ body {
   height: 0;
   overflow: hidden;
 }
+
+.hidden {
+  opacity: 0;
+  display: none;
+}
+
 .cta {
   text-align: center;
   position: relative;
@@ -32,7 +38,6 @@ body {
   border-radius: 4em;
 }
 .button:hover {
-  /* text-decoration: underline; */
   color: #8D908D;
 }
 
