@@ -16,16 +16,16 @@ body {
 .button {
   position: fixed;
   display: inline-block;
-  width: 16em;
+  width: 15em;
   margin: 0 auto;
   font-family: Futura-Bold, Sans-Serif;
   font-size: 1em;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1em;
   letter-spacing: 0.55em;
   color: #030306;
   text-transform: uppercase;
-  padding: 1.25em 1.75em 1.1em;
+  padding: 1.1em 1.5em;
   background-color: #fff;
   text-decoration: none;
   border: #8D908D solid;
