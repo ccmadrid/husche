@@ -35,7 +35,7 @@ body {
 .button {
   display: inline-block;
   position: relative;
-  font-family: Futura-Bold;
+  font-family: Futura-Bold, Georgia, sans-serif;
   font-size: 1em;
   line-height: 1;
   letter-spacing: 0.55em;
